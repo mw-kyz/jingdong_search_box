@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+input {
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	}
+		
+.input-wrap{
+	position: relative;
+	width: 250px;
+	height: 35px;
+	margin: 50px auto;
+}
+		
+.input-wrap .auto-kw{
+	position: absolute;
+	z-index: -1;
+	top: 8px;
+	left: 5px;
+	font-size: 14px;
+	color: #989898;
+}
+
+.input-wrap .auto-kw.show{
+	display: block;
+	color: #989898;
+}
+
+.input-wrap .auto-kw.hide{
+	display: none;
+	color: #666;
+}
+.input-wrap .search-input{
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: 1px solid #ddd;
+	text-indent: 5px;
+	color: #424242;
+}
+
